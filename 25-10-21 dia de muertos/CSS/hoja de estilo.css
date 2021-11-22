@@ -1,0 +1,83 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding: 0;
+}
+header, nav, footer{
+	width: 960px;
+	height: 65px;
+	margin: 0 auto;
+}
+header{
+	background-color: #2D002F;
+	padding: 20px;
+	color: #E84100;
+	border: 10px dotted #FF4700;
+	font-size: 40px;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 0%;
+	font-family: "CF Haunted House";
+	font-style: normal;
+	font-weight: 400;
+	}
+nav {
+	font-size: 18px;
+	text-align: center;
+	background-color: #FFD600;
+	color: #390764;
+	margin: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: bold;
+}
+section {
+	width: auto;
+	background-color: #FF8600;
+	color: #661A6A;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	border-width: 5px;
+	border-style: dotted;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-align: left;
+}
+main {
+	background-color: #2D002F;
+	width: 960px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: auto;
+}
+footer {
+	width: 960px;
+	background-color: #661A6A;
+	border: 10px dotted #FF4700;
+	padding-bottom: 25px;
+	color: #FF8600;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 0%;
+	padding-top: 25px;
+}

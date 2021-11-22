@@ -1,0 +1,96 @@
+@charset "utf-8";
+body{
+	background-color: #1f7b97;
+	color:aliceblue
+}
+h1{
+	width:1024px;
+	background-color: saddlebrown;
+	color:blanchedalmond;
+}
+nav{
+		height: 50px;
+		background-color: #ffc2ad;
+	}
+	main{
+		height: auto;
+		color:blue;
+		background-color: aquamarine;
+	}
+	footer{
+		height: 30px;
+		background-color: indianred;
+	}
+.flexcontenedor{
+	display: flex;
+	background-color: #23BF26;
+}
+.flexcontenedor>div{
+	color: aliceblue;
+	background-color: crimson;
+	margin: 10px;
+	padding: 10px;
+}
+.picture{
+	width: 100%;
+	height: auto;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+@media (max-width:360px){
+	body{
+		background-color: #006232;
+		color:#e0cf85;
+	}
+	nav, main, footer{
+		width:100%;
+		padding: 10px;
+	}
+	.flexcontenedor{
+		flex-direction: column;
+	}
+	.flexcontenedor>div{
+		width: 100%;
+	}
+	.picture{
+		width: 100%;
+	}
+}
+
+@media (max-width:640px) and (orientation:landscape){
+	body{
+		background-color: #ed756e;
+		text-shadow: 0px 0px #5b440b;
+	}
+	nav, main, footer{
+		width:80%;
+		padding: 30px;
+	}
+	.flexcontenedor{
+		align-content: center;
+	}
+	.flexcontenedor>div{
+		width: 100%;
+	}
+	.picture{
+		width: 50%;
+	}
+}
+
+
+@media screen and (min-width:768px){
+	body {
+		background-color: #AA1CAD;
+	}
+	.flexcontenedor{
+		justify-content: center;
+	}
+	.flexcontenedor>div{
+		width:30%;
+	}
+	.picture{
+		width: 25%;
+	}
+}

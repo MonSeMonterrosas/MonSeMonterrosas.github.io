@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Audio</title>
+<link href="../CSS/hoja de estilo audio y video.css" rel="stylesheet" type="text/css">
+<style>
+	.menu{
+	height: 60px;
+	}
+	.menu li{
+		list-style-type: none;
+		width: 100px;
+		margin: 4px 0px;
+		display: inline-block;
+		text-align: center;
+	}
+</style>
+</head>
+
+<body>
+<header>
+	<h1>Audio en HTML5</h1>
+</header>
+<nav>
+	<ul class="menu">
+			<li><a href="../../Mi primera página web/html/mi_primera_pagina.html">Primera Página</a></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="../../listas y tablas/html/tablas.html">Tablas</a></li>
+			<li><a href="../../enlaces/html/Enlaces.html">Enlaces</a></li>
+			<li><a href="../../27-09-21 audio y video/HTML/video.html">Video</a></li>
+			<li><a href="../../04-10-21 animación/HTML/animacion.html">Animación</a></li>
+			<li><a href="../../formulario/html/formularios.html">Formulario</a></li>
+			<li><a href="../../25-10-21 dia de muertos/HMTL/día de muertos.html">Flexbox</a></li>
+			<li><a href="../../08-11-21 mediaqweri/html/mediaqwery.html">Media Qweri</a></li>
+		</ul>
+</nav>
+<main>
+	<section>
+		<h>Inserción de audio simple</h>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ratione explicabo, dignissimos vitae impedit quia similique laudantium porro amet quos? Id impedit laboriosam sequi, minus recusandae accusantium nihil cum atque.</p>
+		<h4>For the swarm - Avatar</h4>
+	  <audio controls>
+			<source src="../medios/Audio/Avatar - For The Swarm.mp3" type="audio/mp3">
+			Your browser does not support the audio element.
+	  </audio>
+	</section>
+  <section>
+		<h1>Inserción de audio sin sonido o muted</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi error fugiat quasi deserunt dignissimos mollitia, ipsum facere, explicabo quis labore!</p>
+	<h4>Hail the apocalypse - Avatar</h4>
+	<audio controls muted autoplay>	
+			<source src="../medios/Audio/Avatar - Hail The Apocalypse.mp3" type="audio/mp3">
+			Your browser does not support the audio element.
+		</audio>
+	</section>
+	<section>
+	  <h1>Inserción de audio loop o ciclico</h1>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi error fugiat quasi deserunt dignissimos mollitia, ipsum facere, explicabo quis labore!</p>
+	  <h4>Night Never Ending - Avatar</h4>
+	  <audio controls autoplay loop muted>
+	    <source src="../medios/Audio/Avatar - Night Never Ending.mp3" type="audio/mp3">
+	    Your browser does not support the audio element. </audio>
+  </section>
+  <section>
+  	<h1>Inserción de audio de repositorios IVOOX</h1>
+  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis qui modi enim eos mollitia, velit a debitis corporis odio totam dicta amet eveniet perferendis. Laborum quas beatae facilis corporis nisi.</p>
+  	<h4>El principito audio libro</h4>
+  	<iframe id='audio_38846' frameborder='0' allowfullscreen='' scrolling='no' height='200' src='https://mx.ivoox.com/es/player_ej_38846_6_1.html?c1=973dd1' style='border:1px solid #EEE; box-sizing:border-box; width:50%;'></iframe>
+  </section>
+  <section>
+  	<h1>Inserción de audio desde Dream</h1>
+  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, vero quae quos. Nisi dolor consequatur qui, repellendus eaque hic. Vel.</p>
+  	<h4>Paint me Red - Avatar</h4>
+  	<audio controls>
+  		<source src="../medios/Audio/Avatar - Paint Me Red.mp3" type="audio/mp3">
+  	</audio>
+  </section>
+  <section>
+  	<h1>Inserción de audio desde otro repositorio Spreaker</h1>
+  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, vero quae quos. Nisi dolor consequatur qui, repellendus eaque hic. Vel.</p>
+  	<iframe src="https://widget.spreaker.com/player?episode_id=46452454&theme=light&playlist=false&cover_image_url=https%3A%2F%2Fd3wo5wojvuv7l.cloudfront.net%2Fimages.spreaker.com%2Foriginal%2F813196b67973be0d82c085c4bf0ca7cc.jpg" width="100%" height="400px" frameborder="0"></iframe>
+  </section>
+</main>
+<footer>
+  <h5>Elaborado por Monterrosas Hernández A. Montserrat</h5>
+</footer>
+</body>
+</html>
